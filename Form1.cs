@@ -28,15 +28,16 @@ namespace MNPUpdate
             Color myColor = System.Drawing.ColorTranslator.FromHtml(hexColor);
              btnTimerStart.BackColor = myColor;
             //this.Location = Screen.AllScreens[1].WorkingArea.Location;
-            var timer1Number = Convert.ToInt32(txtDailyTimer.Text) * 60 * 1000;
-            var timer2Number = Convert.ToInt32(txtBulkTimer.Text) * 60 * 1000;
-            timer1.Interval = timer1Number;
-            timer2.Interval = timer2Number;
+            
         }
 
 
         private void btnTimerStart_Click(object sender, EventArgs e)
         {
+            var timer1Number = Convert.ToInt32(txtDailyTimer.Text) * 60 * 1000;
+            var timer2Number = Convert.ToInt32(txtBulkTimer.Text) * 60 * 1000;
+            timer1.Interval = timer1Number;
+            timer2.Interval = timer2Number;
             timer1.Start();
             timer2.Start();
             btnTimerStop.Enabled = true;

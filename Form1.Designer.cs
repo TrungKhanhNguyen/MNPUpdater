@@ -274,7 +274,7 @@
             this.txtBulkTimer.Name = "txtBulkTimer";
             this.txtBulkTimer.Size = new System.Drawing.Size(54, 22);
             this.txtBulkTimer.TabIndex = 17;
-            this.txtBulkTimer.Text = "1440";
+            this.txtBulkTimer.Text = "2";
             // 
             // timer1
             // 
@@ -286,7 +286,7 @@
             this.txtDailyTimer.Name = "txtDailyTimer";
             this.txtDailyTimer.Size = new System.Drawing.Size(55, 22);
             this.txtDailyTimer.TabIndex = 19;
-            this.txtDailyTimer.Text = "60";
+            this.txtDailyTimer.Text = "2";
             // 
             // label7
             // 
